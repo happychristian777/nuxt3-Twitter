@@ -6,7 +6,7 @@
         <slot>
 
         </slot>
-        <div class="p3 text-sm text-blue-400 cursor-pointer hover:bg-gray-100 dark:hover:bg-dim-300" :class="dafaultTransition">
+        <div class="p-3 text-sm text-blue-400 cursor-pointer hover:bg-gray-100 dark:hover:bg-dim-300" :class="dafaultTransition">
             Show more
         </div>
     </div>
