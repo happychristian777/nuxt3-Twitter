@@ -57,14 +57,14 @@
             image:'https://avatars.githubusercontent.com/u/45622345?v=4'
         },
         {
-            name:'Aryan Prince',
-            handle:'@iAmNoob',
-            image:'https://avatars.githubusercontent.com/u/45622345?v=4'
+            name:'Happy Christian',
+            handle:'@iAmPro',
+            image:'https://avatars.githubusercontent.com/u/47019854?v=4'
         },
         {
-            name:'Aryan Prince',
-            handle:'@iAmNoob',
-            image:'https://avatars.githubusercontent.com/u/45622345?v=4'
+            name:'Elon Musk',
+            handle:'@iAmAlien',
+            image:'https://akm-img-a-in.tosshub.com/businesstoday/images/story/202211/elon-3_5-sixteen_nine.jpg?size=948:533'
         }
     ])
 </script>
