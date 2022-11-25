@@ -3,9 +3,12 @@ import { getRefreshTokenByToken } from "~~/server/db/refreshTokens.js"
 import { getUserById } from "~~/server/db/users"
 import { decodeRefreshToken, generateTokens } from "~~/server/utils/jwt"
 import {getUserById} from "../../db/users.js"
+
 export default defineEventHandler(async(event)=>{
-    const cookies = cookies(event)
+    const cookies = (event)
+    // <!--//TODO Fix this -->
     const refreshToken = cookies.refresh_token
+
     if(!refreshToken){
         return sendError(event,createError({
             statusCode:401,
